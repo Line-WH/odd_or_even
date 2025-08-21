@@ -2,7 +2,9 @@ const input = document.getElementById('numberInput');
 const button = document.getElementById('checkButton');
 const result = document.getElementById('result');
 
-
+window.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('app').classList.add('animate');
+});
 
 button.addEventListener('click', () => {
   const value = input.value.trim();
