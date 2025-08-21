@@ -1,0 +1,30 @@
+{
+  "name": "odd_or_even",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server",
+    "scss": "sass --watch css/styles.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Line-WH/odd_or_even.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Line-WH/odd_or_even/issues"
+  },
+  "homepage": "https://github.com/Line-WH/odd_or_even#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "sass": "^1.90.0"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.3"
+  }
+}
